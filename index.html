@@ -11,18 +11,49 @@
         h1:hover{
             color:#c00000;
         }
+        .nav-link{
+            color:#333333;
+            text-decoration:none;
+        }
+        .nav-link:hover{
+            color:#c00000;
+        }
+        #skills li{
+            color:red;
+        }
+        section ul li{
+            color:blue;
+        }
     </style>
 </head>
 <body>
-    <h1>郭奕男的主页</h1>
-    <p>零基础转行，目标是一线大厂前端/全栈岗。</p>
-    <img src="me.jpg" alt="我的照片">
-    <ul>
-        <li>HTML/CSS</li>
-        <li>JavaScript/TypeScript</li>
-        <li>React</li>
-        <li>Node.js</li>
-    </ul>
-    <a href="https://gitee.com">我的Gitee</a>
+    <header>
+        <h1>郭奕男的主页</h1>
+        <nav>
+            <a class="nav-link" href="#about">关于我</a>
+            <a class="nav-link" href="#skills">技能</a>
+            <a class="nav-link" href="#contact">联系方式</a>  
+        </nav> 
+    </header>
+    <main>        
+        <section id="about">
+            <h2>自我介绍</h2>
+            <p>零基础转行，目标是一线大厂前端/全栈岗。</p>
+            <img src="me.jpg" alt="我的照片">
+        </section>
+        <section id="skills">
+            <h2>掌握的技能</h2>   
+            <ul>
+                <li>HTML/CSS</li>
+                <li>JavaScript/TypeScript</li>
+                <li>React</li>
+                <li>Node.js</li>
+            </ul>
+         </section>
+    </main>
+    <footer id="contact">
+            <p>版权所有 &copy; 2026 郭奕男</p>    
+            <a href="https://gitee.com">我的Gitee</a>
+         </footer>
 </body>
 </html>
