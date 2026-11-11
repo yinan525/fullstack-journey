@@ -1,14 +1,14 @@
 h1 {
   margin: 0;
-    color: #1f3864;
+  color: #1f3864;
   transition: color 0.3s;
 }
 h1:hover {
   color: #c00000;
 }
-nav{
-    display: flex;
-    gap: 20px;
+nav {
+  display: flex;
+  gap: 20px;
 }
 .nav-link {
   color: #333333;
@@ -53,35 +53,35 @@ footer {
   margin-top: 32px;
   color: #777777;
 }
-.skill-list{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 12px;
-    list-style: none;
-    padding: 0;
-    margin: 0;
+.skill-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 .skill-list li {
-    flex: 1 1 160px;
-    background: #f0f4f8;
-    border: 1px solid #d0dbe8;
-    border-radius: 8px;
-    padding: 16px 20px;
-    text-align: center;
+  flex: 1 1 160px;
+  background: #f0f4f8;
+  border: 1px solid #d0dbe8;
+  border-radius: 8px;
+  padding: 16px 20px;
+  text-align: center;
 }
-.about{
-    display: flex;
-    gap: 24px;
-    align-items: flex-start;
+.about {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
 }
-.about img{
-    flex: 0 0 200px;
-    width: 200px;
+.about img {
+  flex: 0 0 200px;
+  width: 200px;
 }
 
 /* ============================================================
-   响应式：窄屏适配（窗口 ≤ 600px 时生效）
-   ============================================================ */
+响应式：窄屏适配（窗口 ≤ 600px 时生效）
+============================================================ */
 @media (max-width: 600px) {
   /* ① 减小页面内边距 */
   body {
