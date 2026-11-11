@@ -78,3 +78,37 @@ footer {
     flex: 0 0 200px;
     width: 200px;
 }
+
+/* ============================================================
+   响应式：窄屏适配（窗口 ≤ 600px 时生效）
+   ============================================================ */
+@media (max-width: 600px) {
+  /* ① 减小页面内边距 */
+  body {
+    padding: 20px;
+  }
+
+  /* ② 页头从"左右分栏"改成"上下堆叠" */
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  /* ③ 「关于我」从"图文并排"改成"上下堆叠" */
+  .about {
+    flex-direction: column;
+  }
+
+  /* ④ 图片改成自适应宽度 */
+  .about img {
+    flex: 0 0 auto;
+    width: 100%;
+    max-width: 240px;
+  }
+
+  /* ⑤ 技能卡片占满一行 */
+  .skill-list li {
+    flex: 1 1 100%;
+  }
+}
