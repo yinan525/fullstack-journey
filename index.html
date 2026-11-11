@@ -2,6 +2,7 @@
 <html lang="zh-CN">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>我的第一个页面</title>
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -15,14 +16,16 @@
       </nav>
     </header>
     <main>
-      <section id="about">
+      <section id="about" class="about">
+        <img src="me.jpg" alt="我的照片" />
+        <div class="about-text">
         <h2>自我介绍</h2>
         <p>零基础转行，目标是一线大厂前端/全栈岗。</p>
-        <img src="me.jpg" alt="我的照片" />
+        </div>
       </section>
       <section id="skills">
         <h2>掌握的技能</h2>
-        <ul>
+        <ul class="skill-list">
           <li>HTML/CSS</li>
           <li>JavaScript/TypeScript</li>
           <li>React</li>

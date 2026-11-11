@@ -1,14 +1,18 @@
 h1 {
-  color: #1f3864;
+  margin: 0;
+    color: #1f3864;
   transition: color 0.3s;
 }
 h1:hover {
   color: #c00000;
 }
+nav{
+    display: flex;
+    gap: 20px;
+}
 .nav-link {
   color: #333333;
   text-decoration: none;
-  margin-right: 20px;
 }
 .nav-link:hover {
   color: #c00000;
@@ -27,6 +31,9 @@ body {
   color: #333333;
 }
 header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding-bottom: 16px;
   border-bottom: 1px solid #dddddd;
   margin-bottom: 24px;
@@ -45,4 +52,29 @@ footer {
   border-top: 1px solid #dddddd;
   margin-top: 32px;
   color: #777777;
+}
+.skill-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.skill-list li {
+    flex: 1 1 160px;
+    background: #f0f4f8;
+    border: 1px solid #d0dbe8;
+    border-radius: 8px;
+    padding: 16px 20px;
+    text-align: center;
+}
+.about{
+    display: flex;
+    gap: 24px;
+    align-items: flex-start;
+}
+.about img{
+    flex: 0 0 200px;
+    width: 200px;
 }
